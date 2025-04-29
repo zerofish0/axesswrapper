@@ -27,7 +27,7 @@ class Axess :
     
     infos : dict : storing useful informations about the user (use getInformations) - done
     
-    grades : dict : storing user's grades (use getGrades)
+    grades : dict : storing user's grades (use getGrades) - done
     
     homeworks : dict : sotring user's homework (use getHomeworks)
     
@@ -41,7 +41,7 @@ class Axess :
     
     getInformations() : replace self.infos with the current user informations - done
     
-    getGrades() : replace self.grades with the current grade of th user
+    getGrades() : replace self.grades with the current grade of th user - done
     
     getHomeworks() : replace self.homeworks with the homework of the user
     
