@@ -49,7 +49,9 @@ Renvoie les informations de l'utilisateur sous la forme :
 Renvoie les notes de l'utilisateur sous la forme : 
 
 ```
-{
+{"matiere1" : {"average" : "average_note_of_the_user","details" : ["note 1","note 2"...]},
+"matiere2" : {"average" : "average_note_of_the_user","details" : ["note 1","note 2"...]}
+}
 
 ```
 
