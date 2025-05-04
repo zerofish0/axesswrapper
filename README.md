@@ -34,25 +34,34 @@ Les instances de Axess ont plusieurs méthodes :
 Renvoie les informations de l'utilisateur sous la forme : 
 
 ```
-{
-"name":"prenom_utilisateur",
+{"name":"prenom_utilisateur",
 "surname":"nom_utilisateur",
 "statut":"statut_utilisateur",
-"etab":"etablissement_utilisateur"
-}
+"etab":"etablissement_utilisateur"}
 ```
 
 ### Notes
 
 `session.getGrades()`
 
-Renvoie les notes de l'utilisateur sous la forme : {}
+Renvoie les notes de l'utilisateur sous la forme : 
+
+```
+{
+
+```
 
 ### Devoirs
 
 `session.getHomeworks(date : str ("yyy-mm-dd"))`
 
-Renvoie les devoirs à faire pour la date donnée sous la forme : {}
+Renvoie les devoirs à faire pour la date donnée sous la forme : 
+
+```
+{matiere1 : [devoir1,devoir2...],
+...
+}
+```
 
 ### Emploi du temps
 
