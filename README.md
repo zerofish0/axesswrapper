@@ -6,10 +6,12 @@ Un empaqueteur pour accéder à la vie scolaire depuis python. Utilisation de he
 
 ### beautifulsoup
 Pour le parsing HTML
+
 `pip install beautifulsoup4`
 
 ### requests
 Pour les requêtes
+
 `pip install requests`
 
 ## Usage
