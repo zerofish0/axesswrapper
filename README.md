@@ -27,19 +27,25 @@ puis, pour utilisez les diverses méthodes :
 
 Les instances de Axess ont plusieurs méthodes : 
 
+### Informations
 
 `session.getInformations()`
 
 Renvoie les informations de l'utilisateur sous la forme : {a compléter}
 
+### Notes
+
 `session.getGrades()`
 
 Renvoie les notes de l'utilisateur sous la forme : {}
+
+### Devoirs
 
 `session.getHomeworks(date : str ("yyy-mm-dd"))`
 
 Renvoie les devoirs à faire pour la date donnée sous la forme : {}
 
+### Emploi du temps
 
 `session.getPlanner(date : str ("dd/mm/yyyy"))`
 
