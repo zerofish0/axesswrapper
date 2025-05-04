@@ -1,8 +1,6 @@
 # AxessWrapper
 A wrapper for axess 'vie scolaire'
 
-Code will be released by the end of dev
-
 ## To-do and structure
 
 class Axess : 
@@ -31,7 +29,7 @@ class Axess :
     
     homeworks : dict : sotring user's homework (use getHomeworks)
     
-    study_planner : dict : storing the user's planner (use getStudyPlanner)
+    planner : dict : storing the user's planner (use getPlanner)
   
   methods : 
   
@@ -43,8 +41,8 @@ class Axess :
     
     getGrades() : replace self.grades with the current grade of th user - done
     
-    getHomeworks() : replace self.homeworks with the homework of the user
+    getHomeworks(date : str) : replace self.homeworks with the homework of the user of the date (yyyy-mm-dd)- done
     
-    getStudyPlanner() : replace self.study_planner with the user's planner (this week and the following week)
+    getStudyPlanner(date : str) : replace self.study_planner with the user's planner matching with the date (dd/mm/yyyy) - done
     
     
