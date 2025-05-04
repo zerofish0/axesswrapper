@@ -6,7 +6,7 @@ Un empaqueteur pour accéder à la vie scolaire depuis python. Utilisation de he
 
 ### beautifulsoup
 Pour le parsing HTML
-`pip install beautifulsoup4'
+`pip install beautifulsoup4`
 
 ### requests
 Pour les requêtes
@@ -31,7 +31,14 @@ Les instances de Axess ont plusieurs méthodes :
 
 `session.getInformations()`
 
-Renvoie les informations de l'utilisateur sous la forme : {a compléter}
+Renvoie les informations de l'utilisateur sous la forme : 
+
+```{
+"name":"prenom_utilisateur",
+"surname":"nom_utilisateur",
+"statut":"statut_utilisateur",
+"etab":"etablissement_utilisateur"
+}```
 
 ### Notes
 
