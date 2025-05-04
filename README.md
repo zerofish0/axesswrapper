@@ -33,12 +33,14 @@ Les instances de Axess ont plusieurs méthodes :
 
 Renvoie les informations de l'utilisateur sous la forme : 
 
-```{
+```
+{
 "name":"prenom_utilisateur",
 "surname":"nom_utilisateur",
 "statut":"statut_utilisateur",
 "etab":"etablissement_utilisateur"
-}```
+}
+```
 
 ### Notes
 
