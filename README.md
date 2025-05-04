@@ -72,3 +72,7 @@ Renvoie les devoirs à faire pour la date donnée sous la forme :
 Renvoie l'emploi du temps de la semaine correspondant à la date fournie, sous la forme : 
 
 `{"lundi" : ["matiere1","matiere2"...], "mardi" : ["matiere1","matiere2"...]...}`
+
+## Informations additionelles
+Ce projet est distribué sous les termes de la [Licence d'utilisation libre avec attribution et décharge de responsabilités](./LICENSE)
+
