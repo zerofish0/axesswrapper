@@ -18,7 +18,8 @@ Créez un nouveau script python, placez axess.py dans le même dossier. Puis ini
 ```
 import axess
 session = axess.Axess(username,password,verbose = False)
-'''
+```
+
 puis, pour utilisez les diverses méthodes : 
 `session.method(args)`
 
