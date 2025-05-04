@@ -38,7 +38,7 @@ Renvoie les informations de l'utilisateur sous la forme :
 ```
 {"name":"prenom_utilisateur",
 "surname":"nom_utilisateur",
-"statut":"statut_utilisateur",
+"status":"statut_utilisateur",
 "etab":"etablissement_utilisateur"}
 ```
 
@@ -57,7 +57,7 @@ Renvoie les notes de l'utilisateur sous la forme :
 
 ### Devoirs
 
-`session.getHomeworks(date : str ("yyy-mm-dd"))`
+`session.getHomeworks(date : str ("yyyy-mm-dd"))`
 
 Renvoie les devoirs à faire pour la date donnée sous la forme : 
 
