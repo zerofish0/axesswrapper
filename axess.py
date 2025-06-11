@@ -214,5 +214,3 @@ class Axess :
 		self.planner = edt
 		self._log("Done")
 		return self.planner
-session = Axess("mmautouchet","L0uise1110#")
-print(session.getGrades())
